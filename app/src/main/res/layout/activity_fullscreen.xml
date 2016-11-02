@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.wordpress.hyugihc.pstbeta.FullscreenActivity">
+
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="180dp"
+            android:text="PUASKAH ANDA DENGAN PELAYANAN KAMI?"
+            android:textColor="#587ca0"
+            android:textSize="37dp" />
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+
+
+                <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/satisfied_image_button"
+                    android:layout_width="230dp"
+                    android:layout_height="230dp"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/satisfied" />
+
+                <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/plain_image_button"
+                    android:layout_width="230dp"
+                    android:layout_height="230dp"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/plain" />
+
+                <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/unsatisfied_image_button"
+                    android:layout_width="230dp"
+                    android:layout_height="230dp"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/unsatisfied" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

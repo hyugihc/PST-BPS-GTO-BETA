@@ -1,0 +1,727 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".ReportActivity$ReportFragment">
+
+        <TextView
+            android:id="@+id/report_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:text="REKAP KEPUASAN PENGGUNA TAHUN 2012"
+            android:textSize="25dp" />
+
+        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:columnCount="8"
+            android:rowCount="15">
+
+            <TextView
+                style="@style/table_cell"
+                android:layout_rowSpan="2"
+                android:background="@drawable/cell_shape"
+                android:text="Bulan" />
+
+
+            <TextView
+                style="@style/table_cell"
+                android:layout_columnSpan="2"
+                android:background="@drawable/cell_shape"
+                android:text="Sangat Puas" />
+
+            <TextView
+                style="@style/table_cell"
+                android:layout_columnSpan="2"
+                android:background="@drawable/cell_shape"
+                android:text="Puas" />
+
+            <TextView
+                style="@style/table_cell"
+                android:layout_columnSpan="2"
+                android:background="@drawable/cell_shape"
+                android:text="Tidak Puas" />
+
+            <TextView
+                style="@style/table_cell"
+                android:layout_rowSpan="2"
+                android:background="@drawable/cell_shape"
+                android:text="Total" />
+
+
+            <TextView
+                style="@style/table_cell"
+                android:background="@drawable/cell_shape"
+                android:text="Absolut" />
+
+            <TextView
+                style="@style/table_cell"
+                android:background="@drawable/cell_shape"
+                android:text="Persen" />
+
+            <TextView
+                style="@style/table_cell"
+                android:background="@drawable/cell_shape"
+                android:text="Absolut" />
+
+            <TextView
+                style="@style/table_cell"
+                android:background="@drawable/cell_shape"
+                android:text="Persen" />
+
+            <TextView
+                style="@style/table_cell"
+                android:background="@drawable/cell_shape"
+                android:text="Absolut" />
+
+            <TextView
+                style="@style/table_cell"
+                android:background="@drawable/cell_shape"
+                android:text="Persen" />
+
+
+            <TextView
+                style="@style/table_cell.month"
+                android:text="Januari" />
+
+            <TextView
+                android:id="@+id/jansa"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/jansp"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/janpa"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/janpp"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/janua"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/janup"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/janta"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+
+            <TextView
+                style="@style/table_cell.month"
+                android:text="Februari" />
+
+            <TextView
+                android:id="@+id/febsa"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/febsp"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/febpa"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/febpp"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/febua"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/febup"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/febta"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+
+            <TextView
+                style="@style/table_cell.month"
+                android:text="Maret" />
+
+            <TextView
+                android:id="@+id/marchsa"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/marchsp"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/marchpa"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/marchpp"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/marchua"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/marchup"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/marchta"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+
+            <TextView
+
+                style="@style/table_cell.month"
+                android:text="April" />
+
+            <TextView
+                android:id="@+id/aprilsa"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/aprilsp"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/aprilpa"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/aprilpp"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/aprilua"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/aprilup"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/aprilta"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+
+            <TextView
+                style="@style/table_cell.month"
+                android:text="Mei" />
+
+            <TextView
+                android:id="@+id/maysa"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/maysp"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/maypa"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/maypp"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/mayua"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/mayup"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/mayta"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+
+            <TextView
+                style="@style/table_cell.month"
+                android:text="Juni" />
+
+            <TextView
+
+                android:id="@+id/junesa"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/junesp"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/junepa"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/junepp"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/juneua"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/juneup"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/juneta"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+
+            <TextView
+                style="@style/table_cell.month"
+                android:text="Juli" />
+
+            <TextView
+                android:id="@+id/julysa"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/julysp"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/julypa"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/julypp"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/julyua"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/julyup"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/julyta"
+                style="@style/table_cell"
+                android:text="0" />
+
+
+            <TextView
+                style="@style/table_cell.month"
+                android:text="Agustus" />
+
+            <TextView
+                android:id="@+id/augsa"
+                style="@style/table_cell"
+                                android:text="0" />
+
+            <TextView
+                android:id="@+id/augsp"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/augpa"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/augpp"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/augua"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/augup"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/augta"
+                style="@style/table_cell"
+
+
+                android:text="0" />
+
+
+            <TextView
+                style="@style/table_cell.month"
+                android:text="September" />
+
+            <TextView
+                android:id="@+id/septsa"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/septsp"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/septpa"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/septpp"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/septua"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/septup"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/septta"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                style="@style/table_cell.month"
+                android:text="Oktober" />
+
+            <TextView
+                android:id="@+id/octsa"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/octsp"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/octpa"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/octpp"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/octua"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/octup"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/octta"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                style="@style/table_cell.month"
+                android:text="November" />
+
+            <TextView
+                android:id="@+id/novsa"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/novsp"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/novpa"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/novpp"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/novua"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/novup"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/novta"
+                style="@style/table_cell"
+                android:text="0" />
+
+
+            <TextView
+                style="@style/table_cell.month"
+                android:text="Desember" />
+
+            <TextView
+                android:id="@+id/dessa"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/dessp"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/despa"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/despp"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/desua"
+                style="@style/table_cell"
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/desup"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/desta"
+                style="@style/table_cell"
+                android:text="0" />
+
+
+            <TextView
+                style="@style/table_cell.month"
+                android:text="Total" />
+
+            <TextView
+                android:id="@+id/totsa"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/totsp"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/totpa"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+
+                android:id="@+id/totpp"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/totua"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/totup"
+                style="@style/table_cell"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/totta"
+                style="@style/table_cell"
+
+                android:text="0" />
+
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>
